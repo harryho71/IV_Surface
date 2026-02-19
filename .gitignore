@@ -1,0 +1,90 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.env
+.env.*
+.venv/
+env/
+venv/
+
+# ── C++ build artifacts ──────────────────────────────────────────────────────
+build/
+.build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+InstallScripts.json
+Testing/
+
+# ── Generated data (cached market snapshots) ─────────────────────────────────
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.parquet
+data/surfaces/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/surfaces/.gitkeep
+
+# ── Generated output (plots, reports, models) ────────────────────────────────
+output/plots/*
+output/reports/*
+output/models/*
+output/calibrations/*
+output/adjustments/*
+output/logs/*
+!output/**/.gitkeep
+
+# ── IDE & editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# ── pytest / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── github ────────────────────────────────────────────────────────────────────
+.github
